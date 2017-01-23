@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{ margin:0 ; padding:0}
+
+body{background-image:url(img/bg6.jpg);  background-repeat:repeat; background-color:black;
+		  background-position:center; background-blend-mode:multiply; background-size:100%; background-color:rgba(0,0,0,0.8) }
+
+footer{overflow:hidden; width:100%;}
+
+#cabecera nav a { 
+text-decoration:none;
+                 padding:10px;
+				 display:block;
+				 color:#f8f8f8;
+                text-shadow: 2px 2px 2px #131515;
+				 } 
+
+header, nav, footer, section, article, main, figure { display:block}
+
+h1{font-size:1.8em; text-align:center; font-family: 'New Rocker', cursive;   background: -webkit-linear-gradient(#ffff00, #fb3f00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+    border-bottom: 1px solid;}
+
+h2{font-size:2.5em; padding-top:7%; padding-bottom:2%}
+
+h4{padding-bottom: 2%; padding-top:2%}
+
+body{font-family:'Roboto', Arial, Geneva, Verdana, Helvetica, sans-serif; font-size: 1.2em; color:floralwhite;}
+
+
+
+footer{ overflow:hidden; text-align:center;}
+
+#bio p{margin:10px;}
+
+#cabecera{text-align:center;}
+
+#cabecera nav li{display:inline-block;}
+
+#imagenheader{background-image:url(img/banner2.png); background-repeat:no-repeat; background-size:50%; height: 200px; background-position:center; z-index:999;}
+
+#biografia{overflow:hidden;}
+
+#discos{}
+
+#fecha{border: 1px solid; text-align:center; overflow:hidden;}
+#numerofecha{background-color:rgba(255,255,255,0.4); height:120px;}
+#contacto{}
+
+#galeria{overflow:hidden;}
+
+#conciertos{}
+
+
+#contacto input, #contacto textarea { 
+display:block; 
+width:97%; /*ID+input = 100+1=101*/
+border-radius: 10px;
+padding:1.5%;
+background-color:#111111;
+}
+
+
+#contacto textarea { height:100px}
+
+#contacto textarea:focus { background-color:#615656;}
+
+#contacto input:focus { background-color:#615656;}
+
+
+
+
+
+.contenedor{width:93.75%;max-width:1350px;margin:auto;}
+
+.columna3 {
+    width:31.25%;/*ancho*/
+    display:inline-block;
+    margin-left:1.33%;
+    margin-top:1.04%;
+    margin-bottom:1.04%;
+   
+    
+	} 
+
+.columna3_2 {
+    width:31.25%;/*ancho*/
+    display:inline-block;
+    margin-left:1.33%;
+    margin-top:1.04%;
+    margin-bottom:1.04%;
+    
+	} 
+
+.columna2{width:40%; float:left; padding-left:100px;/*overflow:hidden;*/}
+
+.columna2 a{margin:10px 10px 10px 10px;}
+
+.columna2 img{margin-top:10px;}
+
+
+
+.featured{height:80%; width:80%; border-radius:5%;}
+
+.caratula{height 100%; width: 100%;}
+
+.iconos{width:50px; height:50px; }
+
+
+
+
+.boton{
+	background-color:#0089bd; 
+	text-decoration:none; 
+	color: #f8f8f8; 
+	padding: 1%;
+	 display:block;
+	 text-align:center;
+	  
+    margin: 10px 10px 10px 10px;
+	  width: 50%; 
+	  border-radius: 5px;}
+
+
+
