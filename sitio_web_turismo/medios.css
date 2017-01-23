@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (min-width:0px) and (max-width:480px){ 
+
+body{}
+
+
+#cabecera img{display:block; margin:auto; text-align:center; }
+
+li{ text-align:center; margin:0px; padding-left:20px;}
+
+#cabecera ul { background-color:#0089bd; padding-top: 10px;}
+
+#cabecera nav a{color:#f8f8f8;}
+
+
+#banner{display:none;}
+
+.columna4{width:100%;}
+
+#revista{display:none;}
+
+
+
+}
+	
