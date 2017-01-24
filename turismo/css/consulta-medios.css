@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (min-width:0px) and (max-width:480px){ 
+#cabecera { text-align:center} /*centra*/
+
+#cabecera img { float:none} /*quita flotacion*/
+#cabecera nav { float:none ; background-color:#1170BC; } /*quita flotacion*/
+#cabecera nav a {/*ojo con el peso del selector*/
+	color:#FFF /*cambiar color*/
+}
+#banner{display:none;}
+#destinos {margin-top:100px;}
+#revista{display:none;}
+.columna4{width:100%;}
+
+
+}
+	

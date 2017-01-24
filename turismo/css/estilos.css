@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* { 
+   padding:0px ; 
+   margin:0px;
+ 
+ }
+  
+ 
+main, header, section, article, footer {
+	display:block ; 
+	                 
+	}
+	
+body { font-family:Arial, serif, sans-serif;
+      font-size:14px; background-color: #f8f8f8; color:#707070}
+
+p{line-height: 1.8em;}
+
+ h1{ 
+ margin: 0 0px 30px 0;
+ padding: 0 0 10px 0;	   
+ border-bottom: 2px dotted #0089bd	;
+ font-weight: 400;
+ color:#0089bd;
+text-align:center;
+font-size:2.5em}
+	
+h2{font-size:2em;}
+	
+
+
+
+
+#cabecera{
+	background-color: rgba(255,255,255,0.7); 
+	/*overflow:hidden; */
+	position:fixed; 
+	top:0;
+
+	z-index: 998; 
+	border-bottom: 5px #0089bd solid;
+	  }
+	  
+#cabecera img{ float:left;}
+#cabecera nav{float:right; padding-top: 10px;}
+
+#cabecera nav li {
+	 display:inline-block; 
+	
+	 } 
+	 
+#cabecera nav a { 
+text-decoration:none;
+                 padding:10px;
+				 display:block;
+				 color:#0089bd; 
+				 } 
+
+	
+#banner{background-image:url(../imagenes/banner2.jpg);
+		  background-repeat:no-repeat;
+		  background-position:center;
+	      background-size:100%;
+		  height:250px;
+		 margin-top:60px;
+		 }
+		 
+#banner article
+      {
+		  
+			color: #f8f8f8;
+			text-align:left;
+			padding:3%;
+			width:50%;
+		
+			}
+			
+			
+#revista, #destinos{overflow:hidden; padding:30px 0
+		}
+		
+		
+
+			
+#destinos{overflow:hidden;
+		text-align:center;
+		margin-top: 45px;}
+
+#destinos h3{color:#1986E8;
+		
+			margin-bottom: 20px;
+	   
+ border-bottom: 1px dotted #0089bd	;}
+
+#destinos h2{color:#1986E8;
+			border-bottom: 1px solid;
+			border-color: #787878;
+			margin-bottom: 50px;}
+
+
+
+
+#pie { text-align:center; color:#fff; padding:2% 0;   background: #0089bd;
+}
+	
+#revista img, #destinos img 	{ 
+           width:100%; 
+             height:auto;
+			} 	
+	
+	
+#cajabuscar{ 
+width:300px;
+height:150px;
+background-color:rgba(4,4,4,0.7);
+position:absolute;
+z-index:999;
+right:0;
+}			
+
+#facebook { display:inline-block}
+/*CLASES Columnas*/
+.contenedor{ width:93.75%; /*ancho 960px*/
+             margin:auto;
+			 max-width:1600px; /*ancho maximo en pixeles*/
+			} 
+			
+.contenedor-full {  /*ancho completo*/
+   width:100%;
+   margin:auto
+}			
+
+.contenedor-70 {
+	 width:70%;
+   margin:auto
+	}			
+
+.columna3 {
+	 width:31.25%;/*ancho*/
+      margin:1%; 
+	 float: left /*hace que los elementos floten a la izquerda*/
+	} 
+	
+.columna2 {width:64.5%;/*ancho*/
+	margin-left: 1%; /*margen a la derecha*/
+	margin-right: 1%; /*margen a la derecha*/
+	float: left /*hace que los elementos floten a la izquerda*/
+	} 
+
+
+.columna4 { 
+	width:22.91%; /*cambiar porcentaje*/
+	float: left;
+	margin: 0.3%; 
+	padding:0.7%;
+	background-color:#fff;
+	text-align:center
+}
+
+.destacado{font-size: 1.5em;}
+
+			
+.boton{
+	background-color:#0089bd; 
+	text-decoration:none; 
+	color: #f8f8f8; 
+	padding: 1%;
+	 display:block;
+	 text-align:center;
+	  margin:auto; 
+	  width: 50%; 
+	  border-radius: 5px;}
+
+#banner .boton { width:30%; margin:0}
+#revista , #destinos{ padding-top:70px}
+
+

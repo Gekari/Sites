@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#administrador {
+    background-color: #ffff;
+    padding: 150px 30px;
+}
+
+#administrador input, textarea,label { display:block; padding:5px; width:50%;}
+#administrador textarea { height:150px}
+#administrador .boton { margin:10px 0}
+.centro{ text-align:center}
+.miniatura { width:100px; height:auto}
+
+	
+.tabla { width:90% ; margin:auto}
+.tabla th { background-color:rgba(236,230,230,1.00); padding:5px}
+.tabla td { border:1px #ccc solid; padding:5px}
+
